@@ -5,19 +5,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>DLK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/pages/index.css">
 </head>
 <body>
-    <header>
-        <img src="images/Union.png" alt="">
-        <nav>
+    <header class="header container">
+        <img src="images/Union.png" alt="" class="header-logo">
+        <nav class="header-nav">
             <ul class="menu">
-                <li>
+                <li class="menu-item">
                     <a href="#" class="menu-link">BLOG</a>
                 </li>
-                <li>
+                <li class="menu-item">
                     <a href="./catalog.html" class="menu-link">CATALOG</a>
                 </li>
-                <li>
+                <li class="menu-item">
                     <a href="#" class="menu-link">ABOUT US</a>
                 </li>
             </ul>
@@ -29,30 +33,30 @@
     </header>
 
     <main>
-        <section class="block-ooh-noo-collection">
-            <h1>THE OOH NOO COLLECTION</h1>
-            <h2>Designed in Slovenia</h2>
+        <section class="block-ooh-noo-collection container">
+            <h1 class="block-ooh-noo-collection-title">THE OOH NOO COLLECTION</h1>
+            <h2 class="block-ooh-noo-collection-title-2">Designed in Slovenia</h2>
             <a href="#" class="link">EXPLORE NOW</a>
             <img src="images/01.png" alt="">
             <div>
                 <ul class="navigation-collection">
                     <li>
-                        <a href="#" class="navigation-collection-link-active">
+                        <a href="./index.html" class="navigation-collection-link-index">
                             <img src="images/Rectangleactive.png" alt="">
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="navigation-collection-link-02">
+                        <a href="./catalog.html" class="navigation-collection-link-catalog">
                             <img src="images/Rectangle_small.png" alt="">
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="navigation-collection-link-03">
+                        <a href="./toys.html" class="navigation-collection-link-toys">
                             <img src="images/Rectangle_small.png" alt="">
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="navigation-collection-link-04">
+                        <a href="#" class="navigation-collection-link-blog">
                             <img src="images/Rectangle_small.png" alt="">
                         </a>
                     </li>                        
@@ -60,179 +64,188 @@
             </div>
             <img src="images/Rectangle.png" alt="">
             <img src="images/monster.png" alt="">
-            <h3>Free (continental) USA shipping on all orders of $100 USD or more!</h3>
+            <h3 class="block-ooh-noo-collection-title-3">Free (continental) USA shipping on all orders of $100 USD or more!</h3>
             <img src="images/Rectangle_dark.png" alt="">
         </section>
-        <section class="block-category">
-            <h2>Category Products</h2>
+        <section class="block-categories container">
+            <h2 class="block-category-title">Category Products</h2>
             <div>
-                <article>
-                    <img src="images/kids.png" alt="">
-                    <h4>
-                        <a href="#" class="APPAREL KIDS">APPAREL KIDS</a>
-                    </h4>   
+                <article class="block-category">
+                    <img src="images/kids.png" alt="" class="block-category-image">
+                    <h4 class="block-category--title">APPAREL KIDS</h4>   
                 </article>
-                <article>
-                    <img src="images/holiday.png" alt="">
-                    <h4>
-                        <a href="#" class="HOLIDAY SHOP">HOLIDAY SHOP</a>
-                    </h4>
+                <article class="block-category">
+                    <img src="images/holiday.png" alt="" class="block-category-image">
+                    <h4 class="block-category--title">HOLIDAY SHOP</h4>
                 </article>
-                <article>
-                    <img src="images/toys.png" alt="">
-                    <h4>
-                        <a href="#" class="TOYS">TOYS</a>
-                    </h4>
+                <article class="block-category">
+                    <img src="images/toys.png" alt="" class="block-category-image">
+                    <h4 class="block-category--title">TOYS</h4>
                 </article>
-                <article>
-                    <img src="images/accessories.png" alt="">
-                    <h4>
-                        <a href="#" class="ACCESSORIES">ACCESSORIES</a>
-                    </h4>
+                <article class="block-category">
+                    <img src="images/accessories.png" alt="" class="block-category-image">
+                    <h4 class="block-category--title">ACCESSORIES</h4>
                 </article>
             </div>
-            <button><img src="images/Vector.png" alt=""></button>
-            <button><img src="images/Vector1.png" alt=""></button>
-            <p>Modern finds for the modern home. Curated goods by unique designers around the world from fashion to 
+            <button class="block-category-button"><img src="images/Vector.png" alt=""></button>
+            <button class="block-category-button"><img src="images/Vector1.png" alt=""></button>
+            <p class="block-category-description">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to 
                 furniture for kids and adults.</p>
         </section>
-        <article class="block-delivery-guarantee-credit">
-            <h2>DELIVERY</h2>
+        <article class="block-delivery-guarantee-credit container">
+            <h2 class="block-delivery-guarantee-credit-title">DELIVERY</h2>
             <div>
-                <ul class="menu-delivery-guarantee-credit">
+                <ul class="block-delivery-guarantee-credit-list">
                     <li>
-                        <a href="#" class="menu-delivery-guarantee-credit-link">Delivery</a>
+                        <a href="#" class="block-delivery-guarantee-credit-link">Delivery</a>
                     </li>
                     <li>
-                        <a href="#" class="menu-delivery-guarantee-credit-link">Guarantee</a>
+                        <a href="#" class="block-delivery-guarantee-credit-link">Guarantee</a>
                     </li>
                     <li>
-                        <a href="#" class="menu-delivery-guarantee-credit-link">Credit</a>
+                        <a href="#" class="block-delivery-guarantee-credit-link">Credit</a>
                     </li>
                 </ul>
             </div>
-            <p>Some days i feel like i've been working on dlk my entire life and there are other days that
+            <p class="block-delivery-guarantee-credit-description">Some days i feel like i've been working on dlk my entire life and there are other days that
                  i am completely shocked that four years have flown by. It's simply magical.</p>
 
-            <p>What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become
+            <p class="block-delivery-guarantee-credit-description">What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become
                  a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
-            <img src="images/Women.png" alt="">
-            <a href="#">LEARN MORE</a>
+            <img src="images/Women.png" alt="" class="block-delivery-guarantee-credit-image">
+            <a href="#" class="link">LEARN MORE</a>
         </article>
-        <section class="block-partners-i-guess">
-            <h2 class="block-partners-visibility-hidden">Our partners</h2>
-            <ul class="block-partners-list">
-                <li class="block-partners-item">
-                    <img src="images/mail_ru_group.png" alt="">
+        <section class="block-our-partners container">
+            <h2 class="block-our-partners-title">Our partners</h2>
+            <ul class="block-our-partners-list">
+                <li class="block-our-partners-item">
+                    <a href="#" class="block-our-partners-link">
+                        <span class="visibility-hidden">Link to Mail_ru</span>
+                        <img src="images/mail_ru_group.png" alt=""class="block-our-partners-image">
+                    </a>
                 </li>
-                <li class="block-partners-item">
-                    <img src="images/apple.png" alt="">
+                <li class="block-our-partners-item">
+                    <a href="#" class="block-our-partners-link">
+                        <span class="visibility-hidden">Link to Apple</span>
+                        <img src="images/apple.png" alt=""class="block-our-partners-image">
+                    </a>
                 </li>
-                <li class="block-partners-item">
-                    <img src="images/eltex.png" alt="">
+                <li class="block-our-partners-item">
+                    <a href="#" class="block-our-partners-link">
+                        <span class="visibility-hidden">Link to Eltex</span>
+                        <img src="images/eltex.png" alt=""class="block-our-partners-image">
+                    </a>
                 </li>
-                <li class="block-partners-item">
-                    <img src="images/owox.png" alt="">
+                <li class="block-our-partners-item">
+                    <a href="#" class="block-our-partners-link">
+                        <span class="visibility-hidden">Link to Owox</span>
+                        <img src="images/owox.png" alt=""class="block-our-partners-image">
+                    </a>
                 </li>
             </ul>
         </section>
         <section class="block-about-us">
-            <h2>DESIGN LIFE KIDS</h2>
+            <h2 class="block-about-us-title">DESIGN LIFE KIDS</h2>
             <div>
-                <article>
-                    <h4>About us</h4>
-                    <p>Some days i feel like i've been working on dlk my entire life and
+                <article class="block-about-us-article">
+                    <h4 class="block-about-us-article-title">About us</h4>
+                    <p class="block-about-us-article-description">Some days i feel like i've been working on dlk my entire life and
                          there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-                         <button class="buy-now">
-                             <img src="images/button_buy_now.png" alt="">
-                         </button>
+                         <a href="#" class="link">BUY NOW</a>
                 </article>
-                <article class="block-contacts">
-                    <h2>CONTACTS</h2>
-                    <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am
+                <article class="block-about-us-article">
+                    <h2 class="block-about-us-title">CONTACTS</h2>
+                    <p class="block-about-us-article-description">Some days i feel like i've been working on dlk my entire life and there are other days that i am
                          completely shocked that four years have flown by. It's simply magical.</p>
-                    <img src="images/map.png" alt="">
+                    <img src="images/map.png" alt="" class="block-about-us-article-image">
                 </article>
             </div>
         </section>
 
     </main>
   
-    <footer>
+    <footer class="footer container">
+        <img src="./images/footerRectangle.jpg" alt="" class="footer-image">
         <div>
-            <h4>Navigation</h4>
-            <nav class="block-navigation-through-site">
-                <ul class="block-navigation-through-site-list">
+            <h4 class="footer-title">Navigation</h4>
+            <nav class="footer-nav">
+                <ul class="footer-list">
                     <li>
-                        <a href="#" class="about us">About us</a>
+                        <a href="#" class="footer-list-link">About us</a>
                     </li>
                     <li>
-                        <a href="#" class="blog">Blog</a>
+                        <a href="#" class="footer-list-link">Blog</a>
                     </li>
                     <li>
-                        <a href="#" class="Design Services">Design Services</a>
+                        <a href="#" class="footer-list-link">Design Services</a>
                     </li>
                     <li>
-                        <a href="#" class="Featured on">Featured on</a>
+                        <a href="#" class="footer-list-link">Featured on</a>
                     </li>
                     <li>
-                        <a href="#" class="2018 Holiday Catalog">2018 Holiday Catalog</a>
+                        <a href="#" class="footer-list-link">2018 Holiday Catalog</a>
                     </li>
                     <li>
-                        <a href="#" class="Shop By Designer">Shop By Designer</a>
+                        <a href="#" class="footer-list-link">Shop By Designer</a>
                     </li>
                 </ul>
             </nav>
         </div>
         <div>
-            <h4>Customer information</h4>
-            <nav class="block-customer-information">
-                <ul class="block-customer-information-list">
+            <h4 class="footer-title">Customer information</h4>
+            <nav class="footer-nav">
+                <ul class="footer-list">
                     <li>
-                        <a href="#" class="Contact Us">Contact Us</a>
+                        <a href="./contact us.html" class="footer-list-link">Contact Us</a>
                     </li>
                     <li>
-                        <a href="#" class="Sale Exclusions">Sale Exclusions</a>
+                        <a href="#" class="footer-list-link">Sale Exclusions</a>
                     </li>
                     <li>
-                        <a href="#" class="Shipping & Returns">Shipping & Returns</a>
+                        <a href="#" class="footer-list-link">Shipping & Returns</a>
                     </li>
                     <li>
-                        <a href="#" class="Terms & Conditions">Terms & Conditions</a>
+                        <a href="#" class="footer-list-link">Terms & Conditions</a>
                     </li>
                     <li>
-                        <a href="#" class="Privacy Policy">Privacy Policy</a>
+                        <a href="#" class="footer-list-link">Privacy Policy</a>
                     </li>
                     <li>
-                        <a href="#" class="Search">Search</a>
+                        <a href="#" class="footer-list-link">Search</a>
                     </li>
                 </ul>
             </nav>
         </div>
         <div>
-            <h4>Connect</h4>
-            <button class="join"><img src="images/button_join.png" alt=""></button>
-            <ul class="block-social-links">
+            <h4 class="footer-title">Connect</h4>
+            <button class="button">JOIN</button>
+            <ul class="footer-social-links">
                 <li>
-                    <a href="https://www.facebook.com/" class="facebook-link">
-                        <img src="images/f.svg" alt="">
+                    <a href="https://www.facebook.com/" class="footer-social-link">
+                        <img src="images/f.svg" alt="" class="footer-social-image">
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.twitter.com/" class="twitter-link">
-                        <img src="images/Fill11.svg" alt="">
+                    <a href="https://www.twitter.com/" class="footer-social-link">
+                        <img src="images/Fill11.svg" alt="" class="footer-social-image">
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.pinterest.ru/" class="pinterest-link">About us
-                        <img src="images/Pinterest.svg" alt="">
+                    <a href="https://www.pinterest.ru/" class="footer-social-link">
+                        <img src="images/Pinterest.svg" alt="" class="footer-social-image">
                     </a>
                 </li>
             </ul>
         </div>
-        <h3>Company Rating</h3>
-        <h3>Copyright © 2018 Dlk • Design Life Kids</h3>
-        <a href="https://directline.digital/" class="directline-link">Web Design — Direct Line Development</a>
+        <h3 class="footer-title">Company Rating
+            <img src="./images/Star.png" alt="">
+            <img src="./images/Star.png" alt="">
+            <img src="./images/Star.png" alt="">
+            <img src="./images/Star.png" alt="">
+            <img src="./images/Star.png" alt="">
+        </h3>
+        <h3 class="footer-title">Copyright © 2018 Dlk • Design Life Kids</h3>
+        <a href="https://directline.digital/" class="footer-link">Web Design — Direct Line Development</a>
     </footer>
         
 </body>

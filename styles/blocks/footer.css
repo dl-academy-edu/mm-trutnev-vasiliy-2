@@ -1,0 +1,58 @@
+.footer {
+
+}
+
+.footer-title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+}
+
+.footer-nav {
+
+}
+
+.footer-list {
+    list-style-type: none;
+
+}
+
+.footer-list-link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer-link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #A2A2A2;
+}
+.footer-social-links {
+    list-style-type: none;
+}
+
+.footer-social-link {
+
+}
+
+.footer-social-image {
+    transition: opasity 0.3s ease-in-out;
+}
+
+.footer-social-link:hover .footer-social-image {
+    opacity: 0.7;
+}
+
+.footer-social-link:active .footer-social-image {
+    opacity: 0.5;
+}

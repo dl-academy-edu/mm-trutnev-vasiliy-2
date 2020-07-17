@@ -1,0 +1,39 @@
+.block-about-us {
+
+}
+
+.block-about-us-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.block-about-us-article {
+
+}
+
+.block-about-us-article-title {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+}
+
+.block-about-us-article-description {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.block-about-us-article-image {
+    
+}
