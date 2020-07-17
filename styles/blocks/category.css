@@ -12,8 +12,20 @@
     color: #1E0606;
 }
 
-.block-category {
+.block-category1 {
+    background: #DBE4DB;
+}
 
+.block-category2 {
+    background: rgba(186, 142, 107, 0.3);
+}
+
+.block-category3 {
+    background: #F8F2DA;
+}
+
+.block-category4 {
+    background: rgba(9, 3, 79, 0.17);
 }
 
 .block-category--title {
