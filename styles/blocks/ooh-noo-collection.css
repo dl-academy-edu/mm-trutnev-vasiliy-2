@@ -1,0 +1,50 @@
+.block-ooh-noo-collection {
+    background-color: #EEE4DB;;
+}
+
+.block-ooh-noo-collection-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 110%;
+    color: #1E0606;
+}
+
+.block-ooh-noo-collection-title-2 {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+}
+
+.navigation-collection {
+    list-style-type: none;
+}
+
+.navigation-collection-link-index {
+    
+}
+
+.navigation-collection-link-catalog {
+
+}
+
+.navigation-collection-link-toys {
+
+}
+
+.navigation-collection-link-blog {
+
+}
+
+.block-ooh-noo-collection-title-3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}

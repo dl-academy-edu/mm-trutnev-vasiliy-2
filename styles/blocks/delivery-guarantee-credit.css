@@ -1,0 +1,39 @@
+.block-delivery-guarantee-credit {
+
+}
+.block-delivery-guarantee-credit-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.block-delivery-guarantee-credit-list {
+    list-style-type: none;
+
+}
+
+.block-delivery-guarantee-credit-link {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+}
+
+.block-delivery-guarantee-credit-link:active {
+    font-weight: bold;
+}
+
+.block-delivery-guarantee-credit-description {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}

@@ -1,0 +1,31 @@
+.block-our-partners {
+
+}
+
+.block-our-partners-title {
+    visibility: hidden;
+}
+
+.block-our-partners-list {
+    list-style-type: none;
+}
+
+.block-our-partners-item {
+
+}
+
+.block-our-partners-link {
+
+}
+
+.block-our-partners-image {
+    transition: opasity 0.3s ease-in-out;
+}
+
+.block-our-partners-link:hover .block-our-partners-image {
+    opacity: 0.7;
+}
+
+.block-our-partners-link:active .block-our-partners-image {
+    opacity: 0.5;
+}

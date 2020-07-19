@@ -1,0 +1,57 @@
+.header {
+
+}
+
+.header-logo {
+
+}
+
+.header-nav {
+
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu-item {
+
+}
+
+.link-contact-us {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+    transition: color 0.3s ease-in-out;
+}
+
+.link-contact-us:hover {
+    color: #1E0606
+}
+
+.link-contact-us:active {
+    color: #1E0606;
+    opacity: 0.5;
+}
+
+.menu-link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-link:hover {
+    color: #1E0606;
+}
+
+.menu-link:active {
+    color: #1E0606;
+    opacity: 0.5;
+}
