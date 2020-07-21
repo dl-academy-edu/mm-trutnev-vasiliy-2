@@ -1,5 +1,8 @@
 .header {
-
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .header-logo {
@@ -7,18 +10,21 @@
 }
 
 .header-nav {
-
+    margin-left: 60px;
+    margin-right: auto;
 }
 
 .menu {
+    display: flex;
     list-style-type: none;
 }
 
-.menu-item {
-
+.menu-item:not(:first-child) {
+    margin-left: 20px;
 }
 
 .link-contact-us {
+    margin-left: 23.45px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;

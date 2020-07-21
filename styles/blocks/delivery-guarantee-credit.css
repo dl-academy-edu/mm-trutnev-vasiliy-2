@@ -1,7 +1,15 @@
 .block-delivery-guarantee-credit {
+    display: flex;
+    margin-top: 90px;
+    padding: 0 15px;
+}
+.block-delivery-guarantee-credit-image {
 
 }
+
 .block-delivery-guarantee-credit-title {
+    margin-top: 30px;
+    margin-left: 121px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -12,11 +20,12 @@
 }
 
 .block-delivery-guarantee-credit-list {
+    margin-top: 17px;
     list-style-type: none;
-
 }
 
 .block-delivery-guarantee-credit-link {
+    margin-bottom: 22px;
     font-family: Crimson Text;
     font-style: italic;
     font-weight: normal;
@@ -30,6 +39,17 @@
 }
 
 .block-delivery-guarantee-credit-description {
+    margin-top: 30px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.block-delivery-guarantee-credit-description-2 {
+    margin-top: 15px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;

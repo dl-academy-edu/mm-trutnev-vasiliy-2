@@ -7,6 +7,8 @@
 }
 
 .block-our-partners-list {
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
 }
 

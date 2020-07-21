@@ -40,6 +40,10 @@
 
 }
 
+.block-ooh-noo-collection-image-monster {
+   
+}
+
 .block-ooh-noo-collection-title-3 {
     font-family: Open Sans;
     font-style: normal;
@@ -47,4 +51,6 @@
     font-size: 12px;
     line-height: 16px;
     color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
 }
