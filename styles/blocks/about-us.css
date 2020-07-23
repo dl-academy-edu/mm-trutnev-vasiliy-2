@@ -1,8 +1,14 @@
 .block-about-us {
+    margin-top: 90px;
+    display: flex;
+}
+
+.block-about-us-article {
 
 }
 
 .block-about-us-title {
+    margin-bottom: 10px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -12,11 +18,8 @@
     color: #1E0606;
 }
 
-.block-about-us-article {
 
-}
-
-.block-about-us-article-title {
+.block-about-us-article-link {
     font-family: Crimson Text;
     font-style: italic;
     font-weight: normal;
@@ -26,6 +29,8 @@
 }
 
 .block-about-us-article-description {
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;

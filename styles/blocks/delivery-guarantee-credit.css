@@ -1,7 +1,19 @@
 .block-delivery-guarantee-credit {
+    display: flex;
+    margin-top: 90px;
+    padding: 0 15px;
+}
+.block-delivery-guarantee-credit-image {
 
 }
+
+.block-delivery-guarantee-credit-nav {
+    margin-left: 120px;
+}
+
 .block-delivery-guarantee-credit-title {
+    margin-top: 30px;
+    margin-bottom: 17px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -12,8 +24,13 @@
 }
 
 .block-delivery-guarantee-credit-list {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
+}
 
+.block-delivery-guarantee-credit-list-item {
+    margin-bottom: 22px;
 }
 
 .block-delivery-guarantee-credit-link {
@@ -30,6 +47,7 @@
 }
 
 .block-delivery-guarantee-credit-description {
+    margin-top: 8px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -37,3 +55,15 @@
     line-height: 22px;
     color: #1E0606;
 }
+
+.block-delivery-guarantee-credit-description-2 {
+    margin-top: 15px;
+    margin-bottom: 26px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
