@@ -1,8 +1,39 @@
 .block-ooh-noo-collection {
-    background-color: #EEE4DB;;
+    display: flex;
+    position: relative;
+    padding-top: 89px;
+    padding-bottom: 128px;
+}
+
+.block-ooh-noo-collection-image-rectangle {
+    position: absolute;
+    
+}
+
+.navigation-collection {
+    padding-top: 17px;
+    padding-left: 28px;
+    position: relative;
+    list-style-type: none;
+}
+
+.block-ooh-noo-collection-titles {
+    position: relative;
+    padding-right: 5px;
+    width: 307px;
+    padding-top: 89px;
+    padding-left: 44px;
+    padding-bottom: 128px;
+    
+}
+
+.block-ooh-noo-collection-image {
+    position: relative;
 }
 
 .block-ooh-noo-collection-title {
+    width: 307px;
+    position: relative;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -12,39 +43,38 @@
 }
 
 .block-ooh-noo-collection-title-2 {
+    margin-top: 20px;
+    position: relative;
     font-family: Crimson Text;
     font-style: italic;
     font-weight: normal;
     font-size: 20px;
     line-height: 25px;
     color: #1E0606;
+    margin-bottom: 20px;
 }
 
-.navigation-collection {
-    list-style-type: none;
-}
-
-.navigation-collection-link-index {
+.block-ooh-noo-collection-title-link{
+    
+    position: relative;
     
 }
 
-.navigation-collection-link-catalog {
-
+.block-ooh-noo-collection-image-monster-wrapper {
+    position: relative;
+    width: 635.49px;
 }
 
-.navigation-collection-link-toys {
-
-}
-
-.navigation-collection-link-blog {
-
-}
-
-.block-ooh-noo-collection-image-monster {
-   
+.block-ooh-noo-collection-wrap {
+    position: relative;
 }
 
 .block-ooh-noo-collection-title-3 {
+    position: absolute;
+    width: 452px;
+    height: 17px;
+    margin-left: 374px;
+    margin-top: 383px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -53,4 +83,11 @@
     color: #FFFFFF;
     text-align: center;
     text-transform: uppercase;
+}
+.block-ooh-noo-collection-image-small-rectangle {
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-top: 372px;
+    width: 1180px;
+    height: 39px;
 }

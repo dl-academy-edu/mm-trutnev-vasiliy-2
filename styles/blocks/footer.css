@@ -1,4 +1,5 @@
 .footer {
+    display: flex;
     background: #434343
 }
 
@@ -12,7 +13,7 @@
 }
 
 .footer-nav {
-
+    margin-left: 20px;
 }
 
 .footer-list {
