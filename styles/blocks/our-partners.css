@@ -9,6 +9,7 @@
 .block-our-partners-list {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     list-style-type: none;
 }
 

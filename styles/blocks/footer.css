@@ -1,9 +1,13 @@
 .footer {
     display: flex;
-    background: #434343
+    background: #434343;
+    width: 1400px;
+    height: 555px;
+    
 }
 
 .footer-title {
+    padding-top: 100px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -13,14 +17,18 @@
 }
 
 .footer-nav {
-    margin-left: 20px;
+   padding-top: 23px;
 }
 
 .footer-list {
+    padding-top: 12px;
     list-style-type: none;
-
+    
 }
 
+.footer-list-item {
+    margin-bottom: 15px;
+}
 .footer-list-link {
     font-family: Open Sans;
     font-style: normal;
@@ -29,6 +37,15 @@
     line-height: 22px;
     color: #FFFFFF;
 }
+
+.footer-customer-info {
+    padding-left: 20px;
+}
+
+.footer-connect {
+    padding-left: 20px;
+}
+
 
 .footer-link {
     font-family: Open Sans;
@@ -39,11 +56,64 @@
     color: #A2A2A2;
 }
 .footer-social-links {
+    display: flex;
     list-style-type: none;
+}
+
+.footer-social-links-item {
+    margin-left: 29.62px;
 }
 
 .footer-social-link {
 
+}
+
+.footer-company-rating {
+    position: absolute;
+    padding-top: 409px;
+}
+
+.footer-title-rating {
+    display: flex;
+    padding-top: 23px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer-title-rating1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.bigline {
+    width: 1180px;
+    height: 1px;
+}
+
+.footer-star {
+    padding-left: 25px;
+}
+
+.footer-title-copyright {
+    padding-left: 154.88px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.developer-link {
+    padding-left: 109px;
 }
 
 .footer-social-image {
