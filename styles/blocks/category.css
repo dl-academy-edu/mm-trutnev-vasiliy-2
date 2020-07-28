@@ -1,5 +1,5 @@
 .block-categories {
-
+    
 }
 
 .block-category-title {
@@ -16,13 +16,17 @@
 .block-categories-list {
     margin-top: 30px;
     display: flex;
+    width: 1180px;
+    height: 421px;
+    justify-content: space-between;
 }
 
 .block-category-image {
-
+    
 }
 
 .block-category--title {
+    position: absolute;
     margin: 57px;
     font-family: Montserrat;
     font-style: normal;
@@ -35,12 +39,15 @@
 }
 
 .block-category1 {
+    position: relative;
+    text-align: center;
     width: 25%;
     height: 270px;
     background: #DBE4DB;
 }
 
 .block-category2 {
+    text-align: center;
     margin-left: 20px;
     width: 25%;
     height: 270px;
@@ -48,6 +55,7 @@
 }
 
 .block-category3 {
+    text-align: center;
     margin-left: 20px;
     width: 25%;
     height: 270px;
@@ -55,6 +63,7 @@
 }
 
 .block-category4 {
+    text-align: center;
     margin-left: 20px;
     width: 25%;
     height: 270px;
