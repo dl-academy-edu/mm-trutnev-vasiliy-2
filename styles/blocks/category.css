@@ -17,17 +17,26 @@
     margin-top: 30px;
     display: flex;
     width: 1180px;
-    height: 421px;
     justify-content: space-between;
 }
 
 .block-category-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     
 }
 
 .block-category--title {
     position: absolute;
-    margin: 57px;
+    top: 43%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -40,14 +49,13 @@
 
 .block-category1 {
     position: relative;
-    text-align: center;
     width: 25%;
     height: 270px;
     background: #DBE4DB;
 }
 
 .block-category2 {
-    text-align: center;
+    position: relative;
     margin-left: 20px;
     width: 25%;
     height: 270px;
@@ -55,7 +63,7 @@
 }
 
 .block-category3 {
-    text-align: center;
+    position: relative;
     margin-left: 20px;
     width: 25%;
     height: 270px;
@@ -63,7 +71,7 @@
 }
 
 .block-category4 {
-    text-align: center;
+    position: relative;
     margin-left: 20px;
     width: 25%;
     height: 270px;

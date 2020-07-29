@@ -1,13 +1,15 @@
 .block-about-us {
-    margin-top: 90px;
     display: flex;
+    height: 349px;
+    margin-top: 90px;
 }
 
 .block-about-us-article {
-
+    
 }
 
 .block-about-us-title {
+    position: relative;
     margin-bottom: 10px;
     font-family: Montserrat;
     font-style: normal;
@@ -16,10 +18,24 @@
     line-height: 46px;
     text-transform: uppercase;
     color: #1E0606;
+    text-align: center;
 }
 
+.block-aboout-us-image {
+    position: absolute;
+    padding-top: 26px;
+    z-index: -1;
+    width: 543px;
+    height: 236px;
+}
+
+.block-about-us-article-contacts {
+    padding-left: 57px;
+}
 
 .block-about-us-article-link {
+    padding-top: 10px;
+    padding-left: 30px;
     font-family: Crimson Text;
     font-style: italic;
     font-weight: normal;
@@ -28,9 +44,16 @@
     color: #1E0606;
 }
 
+.block-about-us-link {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
 .block-about-us-article-description {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    width: 483px;
+    padding-left: 30px;
+    padding-top: 10px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -40,5 +63,6 @@
 }
 
 .block-about-us-article-image {
-    
+    padding-top: 10px;
+    padding-left: 30px;
 }
