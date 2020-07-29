@@ -42,7 +42,8 @@ h1, h2, h3, h4, h5, h6, p {
     border: none;
 }
 
-.link, .button {
+.link, 
+.button {
     padding: 9px 22px;
     font-family: Open Sans;
     font-style: normal;
@@ -54,18 +55,12 @@ h1, h2, h3, h4, h5, h6, p {
     transition: background-color 0.3s ease-in-out
 }
 
-.link:hover {
+.link:hover,
+.button:hover {
     background-color: #C29974;
 }
 
-.button:hover {
-    background-color: #C29974
-}
-
-.link:active {
-    background-color: #CFAF91;
-}
-
+.link:active,
 .button:active {
     background-color: #CFAF91;
 }
