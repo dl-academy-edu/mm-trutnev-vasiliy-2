@@ -1,0 +1,191 @@
+.contact-us {
+    width: 1400px;
+    height: 681px;
+    margin-bottom: 120px;
+}
+
+.contact-us-title {
+    padding-top: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.contact-us-nav {
+    padding-right: 20px;
+    padding-top: 15px;
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+}
+
+.contact-us-vector {
+    margin: 0 20px;
+
+}
+
+.main-wrapper {
+    display: flex;
+}
+
+.contact-us-main {
+    padding-top: 50px;    
+
+}
+
+.contact-us-form {
+    padding: 42px 40px;
+    width: 680px;
+    background: #E5EAF8;
+}
+
+.contact-us-check {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-us-check .contact-us-input-wrapper {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.contact-us-check .contact-us-input-wrapper .contact-us-input {
+    width: auto;
+}
+
+.contact-us-input-wrapper--check .contact-us-input-label {
+    position: relative;
+    padding-left: 34px;
+    display: inline-block;
+}
+
+.contact-us-input-wrapper--check .contact-us-input:checked + .contact-us-input-label::after {
+    opacity: 1;
+}
+
+.contact-us-input-wrapper--check .contact-us-input-label::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 21px;
+    height: 21px;
+    box-sizing: border-box;
+    border: 2px solid #C29974;
+}
+
+.contact-us-input-wrapper--check .contact-us-input-label::after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    box-sizing: border-box;
+    background-color: #C29974;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.contact-us-input-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.contact-us-input-wrapper .contact-us-input {
+    margin-top: 6px;
+}
+
+.contact-us-input-label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1E0606;
+}
+
+.contact-us-column-2 {
+    display: flex;
+    margin: 0 -10px;
+}
+
+.contact-us-column-2 .contact-us-input-wrapper {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.contact-us-input {
+    box-sizing: border-box;
+    padding: 14px 20px;
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1E0606;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.contact-us-input:hover,
+.contact-us-input:focus {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.contact-us-input:hover + .contact-us-input-label,
+.contact-us-input:focus + .contact-us-input-label {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.contact-us-input:active {
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.contact-us-input--textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contact-us-submit {
+    margin-top: 20px;
+}
+
+.contact-us-block-description {
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.contact-us-description {
+    padding-bottom: 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.contact-us-reminder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #C29974;
+}
