@@ -1,0 +1,149 @@
+.catalog-main {
+
+}
+
+.catalog-title {
+    padding-top: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.catalog-nav {
+    padding-right: 20px;
+    padding-top: 15px;
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E0606;
+}
+
+.catalog-vector {
+    margin: 0 20px;
+}
+
+.catalog-wrapper {
+    padding-top: 27px;
+}
+
+.catalog-links-first {
+    display: flex;
+    padding-top: 27px;
+}
+
+.catalog-links1 {
+    position: relative;
+    height: 270px;
+    width: 280px;
+    background: #DBE4DB;
+}
+
+.catalog-links2 {
+    position: relative;
+    margin-left: 20px;
+    height: 270px;
+    width: 280px;
+    background: rgba(186, 142, 107, 0.3);
+}
+
+.catalog-links3 {
+    position: relative;
+    margin-left: 20px;
+    width: 280px;
+    height: 270px;
+    background: #F8F2DA;
+}
+
+.catalog-links4 {
+    position: relative;
+    margin-left: 200px;
+    width: 280px;
+    height: 270px;
+    background: rgba(9, 3, 79, 0.17);
+}
+
+.catalog-links5 {
+    position: relative;
+    margin-left: 20px;
+    height: 270px;
+    width: 280px;
+    background: rgba(207, 68, 111, 0.25);
+}
+
+.catalog-links6 {
+    position: relative;
+    margin-left: 20px;
+    height: 270px;
+    width: 280px;
+    background: rgba(125, 151, 218, 0.2);
+}
+
+.catalog-links-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.catalog-links--title {
+    position: absolute;
+    top: 43%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.catalog-description-main {
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 680px;
+    height: 256px;
+    margin-bottom: 60px;
+}
+
+.catalog-description-title {
+    height: 47px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606
+}
+
+.catalog-description {
+    margin-top: 25px;
+}
+
+.catalog-description-text {
+    margin-top: 15px;
+    width: 680px;
+    height: 44px;
+    left: 310px;
+    top: 986px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
